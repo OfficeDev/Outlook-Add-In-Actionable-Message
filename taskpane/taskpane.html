@@ -1,0 +1,35 @@
+<!-- Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. see LICENSE in the project root for license information. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link href="//static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.0.0/css/fabric.min.css" rel="stylesheet">
+  <link href="taskpane.css" rel="stylesheet" type="text/css" />
+
+  <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+  <script src="//appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script src="taskpane.js"></script>
+</head>
+
+<body>
+  <div id="content-main" class="ms-Fabric">
+    <div id="current-msg" class="ms-font-m">
+      <strong>Selected Message: </strong><span id="subject"></span>
+    </div>
+    <div id="error" class="ms-font-m ms-borderBase ms-borderColor-neutralTertiaryAlt ms-bgColor-error ms-fontColor-error">
+      <span class="icon ms-font-l"><i class="ms-Icon ms-Icon--Error" aria-hidden="true"></i></span>
+      <span class="ms-font-l ms-fontWeight-semibold">Error</span>
+      <pre><code id="error-msg"></code></pre>
+    </div>
+    <div id="no-context" class="ms-font-m ms-borderBase ms-borderColor-neutralTertiaryAlt ms-bgColor-warning ms-fontColor-warning">
+      It looks like you activated this add-in manually, or you have it pinned and have switched to a new message. Select an "ACTIVATE YOUR ADD-IN" message and click the <strong>Open Add-in</strong> button to load data from the message.
+    </div>
+    <div id="has-context" class="ms-font=m">
+      Thanks for activating! The actionable message button you used to activate included the following initialization context:
+      <pre><code id="init-context"></code></pre>
+    </div>
+  </div>
+</body>
+</html>
