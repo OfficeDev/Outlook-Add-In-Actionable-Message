@@ -23,20 +23,20 @@ The add-in adds two buttons to the ribbon when you are reading email messages.
 
 > **Note:** The initialization context is only present when the taskpane is invoked from an actionable message. If you open the taskpane by using the ribbon button, you will see a message letting you know that you need to invoke the add-in from a message.
 >
-> ![A screenshot of the message presented when you manually activate the add-in](readme-images\manual-activation.PNG)
+> ![A screenshot of the message presented when you manually activate the add-in](readme-images/manual-activation.PNG)
 
 1. Click the **Send Add-in Activation** button. A dialog opens to send the message: 
 
-    ![A screenshot of the send message dialog](readme-images\send-message.PNG)
+    ![A screenshot of the send message dialog](readme-images/send-message.PNG)
 1. (Optional): Modify the initialization context.
 1. Click the **Send Message** button.
 1. When the message arrives in your inbox, open it.
 
-    ![A screenshot of the actionable message sent by the add-in](readme-images\actionable-message.PNG)
+    ![A screenshot of the actionable message sent by the add-in](readme-images/actionable-message.PNG)
 1. Click the **Invoke "View Initialization Context"** button.
 1. The add-in taskpane opens and displays the initialization context.
 
-    ![A screenshot of the opened taskpane](readme-images\activated-taskpane.PNG)
+    ![A screenshot of the opened taskpane](readme-images/activated-taskpane.PNG)
 
 ### Try on-demand installation of store add-in
 
