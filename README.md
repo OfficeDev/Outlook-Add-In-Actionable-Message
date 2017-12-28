@@ -41,3 +41,5 @@ The add-in adds two buttons to the ribbon when you are reading email messages.
 ### Try on-demand installation of store add-in
 
 You can use the second button in the actionable message to see how on-demand installation of store add-ins works. Before trying it, if you already have the [Message Header Analyzer](https://appsource.microsoft.com/en-us/product/office/WA104005406), be sure to uninstall it.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
