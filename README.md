@@ -1,3 +1,16 @@
+---
+topic: sample
+products:
+- Office 365
+- Outlook
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 10/19/2017 1:01:24 PM
+---
 # Outlook Add-in: Actionable Message Activation
 
 The sample demonstrates how to [activate an add-in from an actionable message](https://docs.microsoft.com/outlook/actionable-messages/invoke-add-in-from-actionable-message) and pass an intialization context to the add-in.
