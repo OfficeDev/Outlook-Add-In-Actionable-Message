@@ -38,14 +38,8 @@ function loadNewMessage(eventArgs) {
           $("#no-context").show();
         }
       } else {
-        // Today OWA returns an error instead of empty string
-        // when there is no context
-        if (asyncResult.error.code == 9020) {
-          $("#no-context").show();
-        } else {
           // Show the error
           showError(JSON.stringify(asyncResult.error, null, 2));
-        }
       }
 
       // Register for InitializationContextChanged
